@@ -1,0 +1,72 @@
+.sinopse {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: var(--txt);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur (10px);
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.escolha {
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    color: var(--titulo);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur (10px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.escolha:hover {
+    color: var(--secundaria);
+    transition-duration: 0.40s;
+}
+#menu_personagens {
+    display: flex;
+    width: 84%;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: var(--terciaria);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+h3:hover {
+    color: var(--secundaria);
+    transition-duration: 0.40s;
+}
+.pers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur (10px);
+    border-radius: 10px;
+    padding-top: 10px;
+    width: 22%;
+}
+.pers:hover {
+    transform: scale(1.1);
+    transition-duration: 0.40s;
+}

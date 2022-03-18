@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../Image/aibg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.logo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.40s;    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+:root {
+    --titulo: #6fb74d;
+    --txt: #d7ded1;
+    --secundaria: #dd4d27;
+    --terciaria: #d1d33e;
+    --dark: #0b2516;
+}
