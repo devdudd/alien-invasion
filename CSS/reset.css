@@ -15,6 +15,7 @@ header {
     align-items: center;
     overflow: hidden;
     padding-top: 10px;
+    height: 10%;
 }
 .logo:hover {
     transform: scale(1.1);
@@ -26,7 +27,31 @@ main{
     justify-content: center;
     align-items: center;
 }
+button {
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    color: var(--terciaria);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    background-color: var(--titulo);
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: var(--secundaria);
+    transition-duration: 0.40s;
+}
+button:active {
+    background-color: var(--titulo);
+    transform: translateY(4px);
+}
 :root {
+    --bg: #c56d522d;
     --titulo: #6fb74d;
     --txt: #d7ded1;
     --secundaria: #dd4d27;

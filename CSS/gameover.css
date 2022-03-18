@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 70%;
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--bg);
     backdrop-filter: blur (10px);
     border-radius: 10px;
     margin-top: 15px;
@@ -47,35 +47,13 @@
 .pngegg {
     display: flex;
     align-self: center;
-    padding-left: 10%;
+    padding-left: 30%;
 }
 .mars_attack {
     display: flex;
     justify-content: flex-end;
+    margin-top: -45px;
 }
 .try_again {
     padding-bottom: 25px;
-}
-.botao_try {
-    font-family: 'Creepster', cursive;
-    font-size: 30px;
-    color: var(--terciaria);
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
-    background-color: var(--titulo);
-    text-align: center;
-    border-radius: 15px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-}
-.botao_try:active {
-    background-color: var(--titulo);
-    transform: translateY(4px);
-}   
-.botao_try:hover{
-    transform: scale(1.1);
-    background-color: var(--secundaria);
-    transition-duration: 0.40s;
 }
