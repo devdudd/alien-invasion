@@ -1,0 +1,17 @@
+@media (max-width: 769px) {
+    body {
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .winTitle {
+        font-size: 24px;
+    }
+    .texto_win {
+        font-size: 16px;
+        text-align: center;
+    }
+    button {
+        font-size: 22px;
+    }
+} 

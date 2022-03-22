@@ -1,0 +1,20 @@
+@media (max-width: 769px) {
+    body {
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fimdejogo {
+        font-size: 30px;
+    }
+    .texto_fim {
+        font-size: 16px;
+        text-align: center;
+    }
+    .aliens {
+        display: none;
+    }
+    button {
+        font-size: 22px;
+    }
+} 

@@ -1,0 +1,22 @@
+@media (max-width: 769px) {
+    body {
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .titulo {
+        font-size: 22px;
+        text-align: center;
+    }
+    .situacaoTxt {
+        font-size: 15px;
+        text-align: center;
+    }
+    .situacaoList li {
+        font-size: 15px;
+        text-align: justify;
+    }
+    button {
+        font-size: 22px;
+    }
+} 

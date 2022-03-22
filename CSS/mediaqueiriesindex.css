@@ -1,0 +1,27 @@
+@media (max-width: 769px) {
+    body {
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sinopse {
+        font-size: 15px;
+        text-align: center;
+    }
+    .escolha {
+        font-size: 28px;
+        text-align: center;
+        
+    }
+    .pers img {
+        display: none;
+    }
+    .pers h3 {
+        font-size: 20px;
+    }
+    #menu_personagens {
+        margin-top: 10px;
+        height: 60%;
+        margin-bottom: 10px;
+    }
+} 
