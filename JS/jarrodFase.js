@@ -17,7 +17,7 @@
         qntdTentativa --
         } else {
             alert('Foi uma péssima escolha...')
-            window.location.href="../HTML/gameover.html"; 
+            window.location.href="../HTML/gameover.html";
             break
         } 
 } 
