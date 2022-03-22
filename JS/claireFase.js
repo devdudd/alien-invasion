@@ -9,7 +9,7 @@ function escolha1 () {
   
       if (escolha == 'c' || escolha == 'C') {
           alert ('Muito esperto(a)!')
-          window.location.href="../Claire/ClaireFaseTwo.html"
+          window.location.href="../Claire/claireFaseTwo.html"
           break
   }   else if ( escolha != 'c' || escolha != 'C') {
           if (qntdTentativa > 0) {
